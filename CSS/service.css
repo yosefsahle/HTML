@@ -1,0 +1,179 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    background-image: url("../ASSETS/back1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+.logo img{
+    width: 8vh;
+    height: 8vh;
+    cursor: pointer;
+    margin-left: 3vh;
+    
+}
+
+.logo h1{
+    margin-top: 2.3vh;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    margin-left: auto;
+    gap: 5vh;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-top: 4vh;
+    font-size: 20px;
+    font-weight: bold;
+    max-height: 40px;
+    transition: all ease 0.5s;
+}
+
+.navbar a:hover{
+    color: lightseagreen;
+    font-size: 30px;
+}
+
+.nav>img{
+    width: 4vh;
+    height: 4vh;
+    margin-top: 3.7vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.nav>img:hover{
+    background-color: lightseagreen;
+    border-radius: 60px;
+    width: 5vh;
+    height: 5vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1vh;
+}
+
+.des{
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+}
+
+.dess{
+
+    width: 40vh;
+    height: 40vh;
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.dess>img{
+    width: 40vh;
+    height: 25vh;
+}
+
+.dess>button{
+    width: 15vh;
+    height: 4vh;
+    border-radius: 4px;
+    margin-left: 12vh;
+    background-color: white;
+    font-size: 18px;
+    border: solid 2px lightseagreen;
+    color: lightseagreen;
+    transition: all ease 0.5s;
+}
+
+.dess>button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: lightseagreen;
+    transition: all ease 0.4s;
+}
+
+.dess>p{
+    font-size: 18px;
+    color: lightseagreen;
+    padding: 1vh;
+    text-align: center;
+}
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.right{
+    border: solid 3px white;
+    padding: 4vh;
+    margin-right: 1vh;
+}
+.right>h1{
+    color: white;
+    margin-top: 3vh;
+    margin-bottom: -2vh;
+}
+
+.right>table{
+    border: solid 2px white;
+    color: white;
+    margin-top: 2vh;
+    background-color: darkblue;
+    width: 40vh;
+    height: 25vh;
+}
+
+.right>table>tr{
+    color: lightyellow;
+    font-size: 20px
+}
+
+.vids{
+
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    margin-left: 2vh;
+    gap: 3vh;
+}
+.vids>video{
+    width: 90vh;
+}
+
+.txtdis>h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.txtdis>p{
+    color: white;
+    margin-top: 1vh;
+    font-size: 20px;
+
+}
+

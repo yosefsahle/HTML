@@ -1,0 +1,204 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    height: 80vh;
+    background-image: url("../ASSETS/back1.jpg");
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+}
+.logo img{
+    width: 8vh;
+    height: 8vh;
+    cursor: pointer;
+    margin-left: 3vh;
+    
+}
+
+.logo h1{
+    margin-top: 2.3vh;
+    color: white;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    margin-left: auto;
+    gap: 5vh;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    margin-top: 4vh;
+    font-size: 20px;
+    font-weight: bold;
+    max-height: 40px;
+    transition: all ease 0.5s;
+}
+
+.navbar a:hover{
+    color: lightseagreen;
+    font-size: 30px;
+}
+.nav>img{
+    width: 4vh;
+    height: 4vh;
+    margin-top: 3.7vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+
+.nav>img:hover{
+    background-color: lightseagreen;
+    border-radius: 60px;
+    width: 5vh;
+    height: 5vh;
+}
+
+.slog{
+    margin-top: -45px;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    font-size: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 0px 0px 6px lightseagreen;
+}
+
+
+.body{
+    display: flex;
+    flex-direction: row;
+}
+
+.right>video{
+    width: 80vh;
+    height: 55vh;
+    margin-top: 7vh;
+    margin-left: 1vh;
+    margin-right: 2vh;
+}
+
+.left>button{
+    color: white;
+    font-size: 28px;
+    background-color: lightseagreen;
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 6px;
+    align-self: center;
+    transition: all ease 0.5s;
+}
+
+.left>button:hover{
+    color: lightseagreen;
+    background-color: white;
+    border: solid 2px lightseagreen;
+    cursor: pointer;
+    transition: all ease 0.5s;
+    width: 300px;
+}
+
+.left>input{
+    width: 450px;
+    height: 50px;
+    border-radius: 6px;
+    border: solid 3px lightseagreen;
+    align-self: center;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.left>h1{
+    font-size: 70px;
+    color: lightseagreen;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.left>p{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 3vh;
+}
+
+.left>a{
+    text-decoration: none;
+    color: lightseagreen;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+}
+.RM{
+    display: none;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 8vh;
+}
+.imgs{
+    /* margin-left: 30vh; */
+    align-items: center;
+    margin-top: 5vh;
+    align-self: center;
+}
+.imgs>img{
+    width: 22vh;
+    height: 18vh;
+    border-radius: 10px;
+    margin-left: 0.5vh;
+    transition: all ease 0.5s;
+    /* align-items: center; */
+}
+.imgs>img:hover{
+    width: 25vh;
+    height: 20vh;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+footer{
+    background-color: lightseagreen;
+    background-color: white;
+    height: 8vh;
+    margin-top: 3vh;
+    padding-top: 2vh;
+    border: solid 3px lightseagreen;
+    border-radius: 3px;
+    position: sticky;
+}
+
+footer>a{
+    color: lightseagreen;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 2vh;
+}
+
+@media(max-width:480px){
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .nav{
+        max-height: 80vh;
+        background-size: cover;
+    }
+
+
+
+}
